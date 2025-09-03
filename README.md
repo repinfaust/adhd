@@ -2,6 +2,103 @@
 
 A gentle, gamified task and reward system designed specifically for people with ADHD. This app helps users manage tasks based on their current energy levels and celebrates wins without creating pressure.
 
+## What Makes This App Perfect for ADHD Users vs Other Task Apps
+
+Most task management apps are built for neurotypical brains and accidentally harm ADHD users. Here's what makes ADHD Acclaim different:
+
+### **The Fundamental Difference: Understanding Variable Capacity**
+
+**Traditional Apps Assume:**
+- Consistent daily performance
+- Linear motivation patterns
+- Same cognitive resources every day
+- Willpower as the primary factor
+
+**ADHD Acclaim Recognizes:**
+- Energy levels fluctuate dramatically (1-10 scale tracking)
+- Some days deserve MORE credit, not less (2x points for overwhelmed days)
+- Brain fog, hyperfocus, and high energy require different approaches
+- Executive function varies independent of effort
+
+### **Addressing Core ADHD Challenges Other Apps Ignore**
+
+**1. Time Blindness**
+- Most apps: Show due dates, assume time awareness
+- ADHD Acclaim: "4h 59m left today" + task estimates (~21min) make time tangible
+
+**2. Working Memory Issues**
+- Most apps: Expect users to remember context and next steps
+- ADHD Acclaim: Parking Lot for interrupted thoughts, context preservation, "Next Action" highlighting
+
+**3. Task Initiation Paralysis**
+- Most apps: Present endless task lists
+- ADHD Acclaim: Quick Wins section (≤15min tasks), templates for common ADHD needs, energy-matched suggestions
+
+**4. Executive Function Deficits**
+- Most apps: Require users to break down tasks themselves
+- ADHD Acclaim: Task breakdown suggestions, auto-filled point values, decision reduction
+
+### **Harmful Patterns Other Apps Use That This Avoids**
+
+**Streak Systems:**
+- Traditional: Daily streaks create pressure and shame when broken
+- ADHD Acclaim: Cumulative wins (32 achieved) with no time pressure
+
+**All-or-Nothing Metrics:**
+- Traditional: Binary completion tracking
+- ADHD Acclaim: Effort multipliers, partial credit, mood-based adjustments
+
+**Cognitive Overload:**
+- Traditional: Show all tasks simultaneously
+- ADHD Acclaim: Progressive reveal (1-3 tasks), "show more" option
+
+**Shame-Based Motivation:**
+- Traditional: Red alerts, missed deadline emphasis, guilt
+- ADHD Acclaim: "Hey hey! How's today?" supportive language
+
+### **ADHD-Specific Features No Other App Has**
+
+**Energy-Task Matching:**
+Automatically surfaces tasks that match current capacity with explanations ("Matches your energy 5/10"). Most apps force you to choose from everything.
+
+**Mood-Aware Point Systems:**
+Bad days get MORE points because the effort was actually harder. Revolutionary concept that validates ADHD reality.
+
+**Hyperfocus vs Brain Fog Modes:**
+Different task suggestions based on cognitive state. Other apps assume one-size-fits-all productivity.
+
+**Parking Lot for Thoughts:**
+Captures interrupted ideas without losing current focus. Addresses ADHD's scattered attention constructively.
+
+### **The Research-Backed Approach**
+
+This app implements findings from ADHD research that other apps ignore:
+
+- **Dopamine dysfunction**: Immediate rewards (50ms feedback) vs delayed gratification
+- **Executive function variability**: Smart defaults reduce decision fatigue
+- **Rejection sensitivity**: Positive language, no shame messaging
+- **Time perception issues**: Visual time representations throughout
+
+### **What Other "ADHD" Apps Get Wrong**
+
+Many apps claim ADHD-friendliness but still use:
+- Daily streak requirements (creates pressure)
+- Overwhelming feature sets (decision paralysis)
+- Traditional productivity assumptions (consistent performance)
+- Generic gamification (not targeted to dopamine dysfunction)
+
+### **The Critical Innovation: Compassionate Productivity**
+
+Most productivity apps are built on the assumption that people need external pressure to perform. ADHD Acclaim recognizes that ADHD users already have internal pressure and need external support instead.
+
+The app doesn't try to "fix" ADHD traits - it works with them. Variable energy becomes a feature to optimize around, not a problem to overcome. Hyperfocus gets channeled, brain fog gets accommodated, and every effort gets recognized appropriately.
+
+### **Bottom Line**
+
+This isn't just an ADHD-themed skin on traditional productivity concepts. It's a fundamental reimagining of task management built from ADHD research and user feedback. It addresses the actual neurological differences rather than trying to force ADHD brains into neurotypical productivity patterns.
+
+The result is an app that reduces shame, supports variable capacity, and makes productivity feel achievable rather than punishing - which is exactly what ADHD users need but rarely find in the productivity space.
+
 ## Features
 
 ### Core Functionality
