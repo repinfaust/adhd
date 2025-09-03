@@ -13,6 +13,7 @@ import { useApp } from '../context/AppContext';
 import { colors, spacing, borderRadius } from '../constants/theme';
 import TaskItem from '../components/TaskItem';
 import AddTaskModal from '../components/AddTaskModal';
+import FloatingActionButton from '../components/FloatingActionButton';
 
 const TaskScreen = () => {
   const { state } = useApp();
@@ -61,12 +62,6 @@ const TaskScreen = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Wins</Text>
-        <TouchableOpacity
-          style={styles.addButton}
-          onPress={() => setModalVisible(true)}
-        >
-          <Ionicons name="add" size={20} color={colors.white} />
-        </TouchableOpacity>
       </View>
 
       <View style={styles.filterContainer}>
@@ -126,6 +121,8 @@ const TaskScreen = () => {
         <View style={{ height: 100 }} />
       </ScrollView>
 
+      <FloatingActionButton onPress={() => setModalVisible(true)} />
+      
       <AddTaskModal
         visible={modalVisible}
         onClose={() => setModalVisible(false)}
@@ -140,23 +137,12 @@ const styles = StyleSheet.create({
     backgroundColor: colors.backgroundLight,
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
     padding: spacing.lg,
   },
   title: {
     fontSize: 28,
     fontWeight: '600',
     color: colors.primary,
-  },
-  addButton: {
-    backgroundColor: colors.primary,
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
   filterContainer: {
     flexDirection: 'row',

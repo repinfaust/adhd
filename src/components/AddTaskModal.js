@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   Alert,
+  ScrollView,
 } from 'react-native';
 import Modal from 'react-native-modal';
 import { Ionicons } from '@expo/vector-icons';
@@ -114,7 +115,7 @@ const AddTaskModal = ({ visible, onClose }) => {
           </TouchableOpacity>
         </View>
 
-        <View style={styles.form}>
+        <ScrollView style={styles.form} showsVerticalScrollIndicator={false}>
           <View style={styles.inputGroup}>
             <Text style={styles.label}>Quick Templates</Text>
             <View style={styles.templatesContainer}>
@@ -209,7 +210,7 @@ const AddTaskModal = ({ visible, onClose }) => {
           >
             <Text style={styles.addButtonText}>Add Win</Text>
           </TouchableOpacity>
-        </View>
+        </ScrollView>
       </View>
     </Modal>
   );

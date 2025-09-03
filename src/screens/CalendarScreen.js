@@ -11,6 +11,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { useApp } from '../context/AppContext';
 import { colors, spacing, borderRadius } from '../constants/theme';
+import FloatingActionButton from '../components/FloatingActionButton';
+import AddTaskModal from '../components/AddTaskModal';
 
 const CalendarScreen = () => {
   const { state, dispatch } = useApp();
@@ -18,6 +20,7 @@ const CalendarScreen = () => {
   
   const [currentDate, setCurrentDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(new Date().getDate());
+  const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
 
   const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
@@ -167,6 +170,13 @@ const CalendarScreen = () => {
           </TouchableOpacity>
         </View>
       </ScrollView>
+
+      <FloatingActionButton onPress={() => setAddTaskModalVisible(true)} />
+      
+      <AddTaskModal
+        visible={addTaskModalVisible}
+        onClose={() => setAddTaskModalVisible(false)}
+      />
     </SafeAreaView>
   );
 };

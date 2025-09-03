@@ -14,11 +14,14 @@ import { useApp } from '../context/AppContext';
 import { colors, spacing, borderRadius } from '../constants/theme';
 import TaskItem from '../components/TaskItem';
 import RewardItem from '../components/RewardItem';
+import FloatingActionButton from '../components/FloatingActionButton';
+import AddTaskModal from '../components/AddTaskModal';
 
 const HomeScreen = ({ navigation }) => {
   const { state, dispatch } = useApp();
   const { user, tasks, rewards } = state;
   const [energyModalVisible, setEnergyModalVisible] = useState(false);
+  const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
 
   const todaysTasks = tasks
     .filter(task => !task.completed && task.dueDate)
@@ -260,6 +263,13 @@ const HomeScreen = ({ navigation }) => {
           </TouchableOpacity>
         </View>
       </Modal>
+
+      <FloatingActionButton onPress={() => setAddTaskModalVisible(true)} />
+      
+      <AddTaskModal
+        visible={addTaskModalVisible}
+        onClose={() => setAddTaskModalVisible(false)}
+      />
     </SafeAreaView>
   );
 };

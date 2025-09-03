@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
@@ -11,10 +11,13 @@ import { Ionicons } from '@expo/vector-icons';
 import { useApp } from '../context/AppContext';
 import { colors, spacing, borderRadius } from '../constants/theme';
 import RewardItem from '../components/RewardItem';
+import FloatingActionButton from '../components/FloatingActionButton';
+import AddTaskModal from '../components/AddTaskModal';
 
 const RewardsScreen = () => {
   const { state } = useApp();
   const { rewards, user } = state;
+  const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -37,6 +40,13 @@ const RewardsScreen = () => {
 
         <View style={{ height: 100 }} />
       </ScrollView>
+
+      <FloatingActionButton onPress={() => setAddTaskModalVisible(true)} />
+      
+      <AddTaskModal
+        visible={addTaskModalVisible}
+        onClose={() => setAddTaskModalVisible(false)}
+      />
     </SafeAreaView>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
@@ -12,10 +12,13 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { useApp } from '../context/AppContext';
 import { colors, spacing, borderRadius } from '../constants/theme';
+import FloatingActionButton from '../components/FloatingActionButton';
+import AddTaskModal from '../components/AddTaskModal';
 
 const ProfileScreen = () => {
   const { state, dispatch } = useApp();
   const { user, settings, currentEnergyLevel } = state;
+  const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
 
   const updateSetting = (key, value) => {
     dispatch({ type: 'UPDATE_SETTINGS', payload: { [key]: value } });
@@ -141,6 +144,13 @@ const ProfileScreen = () => {
 
         <View style={{ height: 100 }} />
       </ScrollView>
+
+      <FloatingActionButton onPress={() => setAddTaskModalVisible(true)} />
+      
+      <AddTaskModal
+        visible={addTaskModalVisible}
+        onClose={() => setAddTaskModalVisible(false)}
+      />
     </SafeAreaView>
   );
 };
