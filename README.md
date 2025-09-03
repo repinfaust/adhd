@@ -115,6 +115,18 @@ The result is an app that reduces shame, supports variable capacity, and makes p
 - **Minimal Celebrations**: Option for shorter, less animated feedback
 - **Energy Awareness**: Tasks suggested based on current capacity
 
+<img width="450" height="733" alt="Screenshot 2025-09-03 at 18 33 19" src="https://github.com/user-attachments/assets/41d8cbb9-95cd-40cc-85c3-674c24696667" />
+
+<img width="505" height="728" alt="Screenshot 2025-09-03 at 18 31 32" src="https://github.com/user-attachments/assets/d13e072a-0497-4086-80fd-beebe72b71d6" />
+
+<img width="509" height="717" alt="Screenshot 2025-09-03 at 18 31 40" src="https://github.com/user-attachments/assets/7e8b3fd8-1c73-42ca-a65e-20c0ba32dc9c" />
+
+<img width="505" height="722" alt="Screenshot 2025-09-03 at 18 31 45" src="https://github.com/user-attachments/assets/ec629069-dec1-4229-95d4-5e723a703b55" />
+
+<img width="499" height="715" alt="Screenshot 2025-09-03 at 18 31 51" src="https://github.com/user-attachments/assets/51ce8d59-0311-465c-a147-b09178e77969" />
+
+<img width="501" height="711" alt="Screenshot 2025-09-03 at 18 32 01" src="https://github.com/user-attachments/assets/606db452-53cf-4946-afde-2363eb850a65" />
+
 ## Getting Started
 
 ### Prerequisites
